@@ -1,0 +1,6 @@
+if (publicKey != null) {
+    byte[] encodedKey = publicKey.getEncoded(); 
+    // Do something with the encoded key
+} else {
+    // Handle the null case, such as throwing an exception
+}
